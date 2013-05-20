@@ -37,7 +37,7 @@ if __name__ == '__main__':
 	except IndexError:
 		print '\nUSAGE: python\tset_flair.py\tcss_file_path|from_ss\tsubreddit_name\t[-options]\n'
 		print 'options: c\tclear all existing templates.' 
-		print '         e\tcheck the box indicating that the user can edit thier flair.\n'
+		print '         e\tcheck the box indicating that the user can edit their flair.\n'
 		print 'CSS can be from a file or from the current subreddit \
 stylesheet by putting "from_ss" instead of a file path.\n'
 		exit(0)
