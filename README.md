@@ -25,7 +25,7 @@ templates that already exist.
 python  set_flair.py  from_ss  pics -c
 ```
 Add some extra flairs from a file (newFlairs.css) located in the CWD. These new flairs are added in addition to the existing
-flairs.
+flairs (i.e. no `-c` option)
 ```
 python  set_flair.py  newFlairs.css  pics
 ```

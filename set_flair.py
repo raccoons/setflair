@@ -15,7 +15,7 @@ def set_flair(css_file, sub_name, clear=False, can_edit=False):
 		sub.clear_flair_templates()
 
 	if css_file.strip() == 'from_ss':
-		css = str(sub.get_stylesheet()['stylesheet'])
+		css = sub.get_stylesheet()['stylesheet']
 	else:
 		css = open(css_file).read()
 
